@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Error = ({mensaje}) => (
-    <p className="alert alert-damger error">{mensaje}</p>
+    <p className="alert alert-danger error">{mensaje}</p>
 )
  
 export default Error;
